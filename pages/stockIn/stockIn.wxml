@@ -1,0 +1,22 @@
+<view>
+    <view>
+        <view class="weui-cells weui-cells_after-title">
+            <view class="weui-cell weui-cell_input">
+                <picker bindchange="orderPrefixChange" disabled='{{storeSelect}}' style='width: 50rpx'
+                        value="{{orderPrefixIndex}}" range="{{orderPrefixList}}">
+                    <view class="weui-input">{{orderPrefixList[orderPrefixIndex]}}</view>
+                </picker>
+                <input class="weui-input" type="number" value='{{orderNumber}}' data-name='orderNumber'
+                       bindinput='orderNumberBind' auto-focus placeholder="单号"/>
+            </view>
+        </view>
+        <view style='width:100%;position:fixed;bottom:30rpx'>
+            <view>
+                <button type="primary" style='margin-bottom: 30rpx' bindtap='addGoods'>新增货品</button>
+            </view>
+            <view>
+                <button type="primary" bindtap='staffLogin'>完成</button>
+            </view>
+        </view>
+    </view>
+</view>

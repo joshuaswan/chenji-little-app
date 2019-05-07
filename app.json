@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/welcome/welcome",
+    "pages/index/index",
+    "pages/stock/stock",
+    "pages/stockIn/stockIn",
+    "pages/stockOut/stockOut",
+    "pages/transit/transit",
+    "pages/addGoods/addGoods"
+  ],
+  "windows": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "陈记海参",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "blue",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/stock/stock",
+        "iconPath": "static/icon/stock.png",
+        "selectedIconPath": "static/icon/stockSelected.png",
+        "text": "库存"
+      },
+      {
+        "pagePath": "pages/stockIn/stockIn",
+        "iconPath": "static/icon/stockIn.png",
+        "selectedIconPath": "static/icon/stockInSelected.png",
+        "text": "入库"
+      },
+      {
+        "pagePath": "pages/stockOut/stockOut",
+        "iconPath": "static/icon/stockOut.png",
+        "selectedIconPath": "static/icon/stockOutSelected.png",
+        "text": "出库"
+      },
+      {
+        "pagePath": "pages/transit/transit",
+        "iconPath": "static/icon/transit.png",
+        "selectedIconPath": "static/icon/transitSelected.png",
+        "text": "转库"
+      }
+    ]
+  }
+}

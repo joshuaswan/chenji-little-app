@@ -1,0 +1,6 @@
+<view>
+<button open-type="getUserInfo" >
+授权
+</button>
+<button bindtap='staffLogin'>登陆</button>
+</view>

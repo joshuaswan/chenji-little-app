@@ -1,0 +1,132 @@
+/* pages/stock/stock.wxss */
+.main-container {
+  width: 710rpx;
+  height: 90%;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+  padding-top: 20rpx;
+  /* background-color: #F5F6FA;  */
+}
+
+.no_beta {
+  height: 200rpx;
+  width: 300rpx;
+  margin-top: 30%;
+  margin-bottom: 30rpx
+}
+.none_beta_desc{
+  font-size: 32rpx;
+  color:grey;
+}
+
+.beta-container {
+  width: 100%;
+}
+
+.list-beta {
+  height: 180rpx;
+  width: 94%;
+  background: #fff;
+  box-shadow: 0 16rpx 80rpx 0 rgba(0, 0, 0, 0.08);
+  border-radius: 20rpx;
+  margin-left: 3%;
+  margin-bottom: 2%;
+  margin-top: 3%;
+  display: flex;
+  flex-direction: row;
+}
+
+.list-beta-title {
+  height: 180rpx;
+  font-family: PingFangSC-Medium;
+  font-size: 38rpx;
+  color: #333;
+  letter-spacing: 0;
+  line-height: 180rpx;
+  vertical-align: middle;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 500rpx;
+  word-break: break-all; /*允许在单词内换行*/
+  text-align: left;
+  text-overflow: -o-ellipsis-lastline; /*css3中webkit内核提供的一个方法类似ellipsis*/
+  display: -webkit-box; /*自适应盒子*/
+  -webkit-line-clamp: 1; /*此处为1行,如果是两行就改成2*/
+  -webkit-box-orient: vertical;
+}
+
+.list-beta-time {
+  color: gray;
+  font-size: 30rpx;
+  margin-top: -55rpx;
+}
+
+.list-beta-status {
+  font-family: PingFang-SC-Regular;
+  font-size: 32rpx;
+  margin-top: 10rpx;
+  margin-left: 10rpx;
+}
+.start{
+  color: green
+}
+
+.unstart{
+  color: gray
+}
+
+.finish{
+  color:black
+}
+
+.unapply{
+  color: black
+}
+.apply{
+  color: gold
+}
+.accept{
+  color: green
+}
+.refuse{
+  color: gray
+}
+.designated{
+  color: green
+}
+.list-beta-left {
+  width: 81%;
+  margin-left: 4.7%;
+}
+
+.list-beta-right {
+  width: 19%;
+  flex-direction: column;
+  display: flex;
+  margin-top: 9%;
+}
+
+/*第一部分 待确认/已确认 */
+.item_state{
+  background-color: white;
+  height:120rpx;
+  width: 750rpx;
+  display: flex;
+  flex-direction: row;
+  font-size: 32rpx;
+}
+.item_tab{
+  margin-top:20rpx;
+  margin-left: 25% 
+}
+.short_line{
+  height: 9rpx;
+  width: 60rpx;
+  margin-left: 15rpx;
+  margin-top:10rpx;
+  border-radius: 4rpx;
+}
